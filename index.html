@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Web Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h1 style="color:white;">To-Do App</h1>
+            <div class="stat-conatiner">
+                <div class="details">
+                    <h3>Keep it Up</h3>
+                    <div id="progressBar">
+                        <div id="progress"></div>
+                    </div>
+                </div>
+                <div class="stats-number">
+                    <p id="numbers"> 0 / 0</p>
+                </div>
+            </div>
+            <form action="" class="input-area">
+                <input type="text" class="input-field" id="text-input" placeholder="Enter your task">
+                <button type="submit" id="add-task-btn"><i class="fa-solid fa-plus"></i></button>
+            </form>
+
+            <div class="todos-container">
+                <ul class="task-list">
+                </ul>
+                <img class="empty-img" src="/images/empty-img-removebg-preview.png" alt="Empty todo list">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
